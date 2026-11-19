@@ -6,7 +6,7 @@
     "online_version": "2026.11.16-1",
     "build_version": "2026.11.16-1",
     "platform": "unpkg",
-    "create_at": "2026-11-17T07:33:48.072Z"
+    "create_at": "2026-11-19T12:01:07.797Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
@@ -23,10 +23,10 @@
         "/comps-vue3-med/hel_dist/assets/style-CtZvFGIJ.css"
       ],
       "chunkJsSrcList": [
-        "/comps-vue3-med/hel_dist/assets/index-DD_Jl6kb.js",
+        "/comps-vue3-med/hel_dist/assets/index-QYTcDjVq.js",
+        "/comps-vue3-med/hel_dist/assets/__uno-CBj94cyw.js",
         "/comps-vue3-med/hel_dist/assets/shared-runtime-UfabnGqj.js",
-        "/comps-vue3-med/hel_dist/assets/vendor-BsFUHgKc.js",
-        "/comps-vue3-med/hel_dist/assets/__uno-CBj94cyw.js"
+        "/comps-vue3-med/hel_dist/assets/vendor-fNaPN5bN.js"
       ],
       "staticCssSrcList": [],
       "staticJsSrcList": [
@@ -55,7 +55,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/comps-vue3-med/hel_dist/assets/index-DD_Jl6kb.js",
+            "src": "/comps-vue3-med/hel_dist/assets/index-QYTcDjVq.js",
             "type": "module",
             "crossorigin": ""
           }
@@ -82,7 +82,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-vue3-med/hel_dist/assets/vendor-BsFUHgKc.js",
+            "href": "/comps-vue3-med/hel_dist/assets/vendor-fNaPN5bN.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -99,18 +99,18 @@
       ],
       "bodyAssetList": [],
       "otherSrcList": [
-        "/comps-vue3-med/hel_dist/assets/index-DD_Jl6kb.js.gz",
+        "/comps-vue3-med/hel_dist/assets/index-QYTcDjVq.js.gz",
         "/comps-vue3-med/hel_dist/assets/shared-runtime-UfabnGqj.js.gz",
         "/comps-vue3-med/hel_dist/assets/style-CtZvFGIJ.css.gz",
-        "/comps-vue3-med/hel_dist/assets/vendor-BsFUHgKc.js.gz",
+        "/comps-vue3-med/hel_dist/assets/vendor-fNaPN5bN.js.gz",
         "/comps-vue3-med/hel_dist/favicon.ico",
         "/comps-vue3-med/hel_dist/index.html"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
-    "html_content": "<!doctype html>\r\n<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\r\n<html lang=\"en\" class=\"hel-standalone\">\r\n  <head>\r\n    <!--\r\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\r\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\r\n      使用宿主 bindVueRuntime 注入的那一份 vue，避免双 vue 导致响应式失效。\r\n    -->\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js\"\r\n    ></script>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/comps-vue3-med/hel_dist/favicon.ico\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>comps-vue3-med</title>\r\n    <script type=\"module\" crossorigin src=\"/comps-vue3-med/hel_dist/assets/index-DD_Jl6kb.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/__uno-CBj94cyw.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/shared-runtime-UfabnGqj.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/vendor-BsFUHgKc.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/style-CtZvFGIJ.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
-    "create_at": "2026-11-17T07:33:48.072Z",
+    "html_content": "<!doctype html>\n<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"en\" class=\"hel-standalone\">\n  <head>\n    <!--\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\n      使用宿主 bindVueRuntime 注入的那一份 vue，避免双 vue 导致响应式失效。\n    -->\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js\"\n    ></script>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/comps-vue3-med/hel_dist/favicon.ico\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-vue3-med</title>\n    <script type=\"module\" crossorigin src=\"/comps-vue3-med/hel_dist/assets/index-QYTcDjVq.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/__uno-CBj94cyw.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/shared-runtime-UfabnGqj.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/vendor-fNaPN5bN.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vue3-med/hel_dist/assets/style-CtZvFGIJ.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-19T12:01:07.797Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
